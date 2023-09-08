@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Trabajo Practico Nº2</title>
+</head>
+<body>
+    <h3>Formulario Carga de Datos</h3>
+    <form>
+        <fieldset>
+                <div>
+                    <label for="Apellido">Apellido</label>             
+                    <input type="text" id="Apellido" placeholder="Apellido...">   
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" placeholder="Nombre...">
+                </div>
+                <br> 
+                <div>
+                    <label for="DNI">DNI</label>
+                    <input type="number" id="DNI" placeholder="DNI...">
+                    <label for="Fecha de Nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="Fecha de Nacimiento" placeholder="Fecha de Nacimiento...">
+                </div>
+                <br>
+                <div>
+                    <label for="Domicilio">Domicilio</label>             
+                    <input type="text" id="Domicilio" placeholder="Domicilio...">   
+                    <label for="Localidad">Localidad</label>
+                    <input type="text" id="Localidad" placeholder="Localidad...">
+                </div>
+        </fieldset>
+    
+    <h4>Idiomas que conoce</h4>
+    <table>
+        <thead>
+            <th>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <b>Nivel de Conocimiento</b>
+                    </td>
+                </tr>   
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <label> Español </label>
+                        <input type="checkbox" name="lenguajes" value="Español" id="box1" checked>
+                    </div>
+                </td>  
+                <td>
+                    <label for="barra1">0---------50--------100<br></label>
+                    <input type="range" min="0" max="100" id="barra1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label> Inglés </label>
+                        <input type="checkbox" name="lenguajes" value="Inglés" id="box2" checked>
+                    </div>
+                </td>  
+                <td>
+                    <label for="barra2">0---------50--------100<br></label>
+                    <input type="range" min="0" max="100" id="barra2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label> Francés </label>
+                        <input type="checkbox" name="lenguajes" value="Francés" id="box3" checked>
+                    </div>
+                </td>
+                <td>
+                    <label for="barra3">0---------50--------100<br></label>
+                    <input type="range" min="0" max="100" id="barra3">
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label> Chino </label>
+                        <input type="checkbox" name="lenguajes" value="Chino" id="box4" checked>
+                    </div>
+                </td>
+                <td>
+                    <label for="barra4">0---------50--------100<br></label>
+                    <input type="range" min="0" max="100" id="barra4">
+                </td>  
+            </tr>
+        </tbody>
+    </table>
+    <button type="submit" style="color:white ; lighting-color:white; background-color: rgb(95, 95, 186); border-color: white;" >Enviar </button>
+    <button type="reset" style="color:white ; lighting-color:white; background-color: rgb(95, 95, 186); border-color: white;">Borrar</button>
+</form>
+</body>
+</html>
